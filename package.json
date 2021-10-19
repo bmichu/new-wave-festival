@@ -1,0 +1,17 @@
+{
+  "name": "new-wave-rest-api-kodilla-21.5",
+  "author": "Natalia Banasiewicz",
+  "repository": "https://github.com/natkalia/new-wave-rest-api-kodilla-21.5.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server",
+    "build": "cd client && yarn install && yarn build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "uuid": "^7.0.3"
+  }
+}
